@@ -42,3 +42,7 @@ button{
 button:hover{
     background-color: #3df106;;
 }
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
