@@ -1,0 +1,64 @@
+/*
+==========================================
+EXERCISE 1 - ABOUT ME INTERACTIVE CARD
+==========================================
+
+CSS Goals:
+
+1. Center the card
+2. Add some color
+3. Round the image corners
+4. Make the card look clean
+==========================================
+*/
+
+body{
+    margin: 0;
+    background-color: #141714;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+h1{
+    margin-bottom: 10px;
+    color: #f16406;
+    font-size: 2.5rem;
+}
+p{
+    max-width: 400px;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+}
+#img{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: #fff;
+    border-radius: 50%;
+}
+.btn button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #f16406;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.btn button:hover{
+    background-color: #45a049;
+}
+.btn p{
+    color: aliceblue;
+    font-size: 15px;
+}
+#fun-fact{
+    margin-top: 10px;
+    font-style: italic;
+    color: #ccc;
+}
+
