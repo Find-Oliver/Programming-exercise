@@ -16,6 +16,7 @@ addBtn.addEventListener('click', function(){
 });
    
    deleteBtn.addEventListener('click', function() {
+    e.stopPropagation();
     li.remove();
 });
 
@@ -24,6 +25,10 @@ addBtn.addEventListener('click', function(){
    taskList.appendChild(li);
    input.value ='';
    }
+
+   localStorage.setItem('task-list', JSON.stringify(['day one', 'day two']));
+   localStorage.getItem('task-list');
+   
 });
 
 
